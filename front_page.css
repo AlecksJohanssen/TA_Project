@@ -447,7 +447,7 @@ img {
   }
 }
 
-@media (min-width: 700px) {
+@media (min-width: 570px) {
   .footer-cell {
     text-align: left;
   }
@@ -463,6 +463,13 @@ img {
     flex: 33%;
     max-width: 33%;
   }
+}
+
+@media (min-width: 1200px) {
+  .row-eq-height {
+    padding-left: 150px;
+  }
+
 }
 
 
