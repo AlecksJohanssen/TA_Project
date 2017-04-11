@@ -155,7 +155,7 @@
   padding-top: 30px;
   padding-right: 30px;
   padding-bottom: 30px;
-  padding-left: 30px;
+  padding-left: 20px;
   font-size: 20px; !important;
 }
 .text-dark {
@@ -326,3 +326,143 @@
 @media screen and (max-width: 600px) { 
   .cb-slideshow li div h3 { font-size: 80px }
 }
+
+.logo-outer {
+  display: table;
+  width: 100%;
+}
+
+.logo-inter {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  text-align: center;
+}
+
+.container-fluid.test {
+  padding-top: 110px !important;
+  padding-bottom: 110px !important;
+  border-bottom: 1px solid #ececec;
+}
+
+.container-fluid.footer-test {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border: 1px solid #ececec;
+  background-color: #ececec;
+}
+
+img {
+  max-width: 100%;
+}
+
+@media (max-width: 1199px) {
+  .logo-inter img {
+    max-width: 220px;
+  }
+}
+
+
+.footer {
+  padding-top: 60px !important;
+  padding-bottom: 60px !important;
+}
+
+.icon-small {
+  font-size: 14px !important;
+}
+@media (min-width: 1200px) {
+  .col-lg-3 {
+    width: 25%;
+  }
+}
+
+.table {
+  display: table !important;
+}
+
+.footer-cell-1 {
+  text-align: center;
+  font-weight: 100;
+  color: #707070;
+}
+
+@media (min-width: 1200px) {
+  .col-lg-6 {
+    width: 50%;
+  }
+}
+
+.container.footer {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.footer-cell-2 {
+  text-align: right;
+}
+
+.footer-cell {
+  text-align: left;
+}
+
+
+.fa {
+  padding-left: 10px;
+}
+
+.demo{
+    margin-bottom: -99999px;
+      padding-bottom: 99999px;
+        background-color:#efefef;
+}
+
+@media (min-width: 991px) {
+  .col-sm-6 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 50%;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-md-3 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 25%;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 320px) {
+  .footer-cell {
+    text-align: center;
+  }
+
+  .footer-cell-2 {
+    text-align: center;
+  }
+}
+
+@media (min-width: 700px) {
+  .footer-cell {
+    text-align: left;
+  }
+
+  .footer-cell-2 {
+    text-align: right;
+  }
+
+  .col-md-5 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 41.666667%;
+    -ms-flex: 0 0 41.666667%;
+    flex: 33%;
+    max-width: 33%;
+  }
+}
+
+
